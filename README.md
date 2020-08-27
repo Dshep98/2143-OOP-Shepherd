@@ -5,4 +5,4 @@
 #### Email: Dshep98@gmail.com
 
 #### Image:
-![Dominique](https://github.com/Dshep98/2143-OOP-Shepherd/blob/master/IMG_1979.JPG)
+![Dominique](https://github.com/Dshep98/2143-OOP-Shepherd/blob/master/gitpic.jpg)

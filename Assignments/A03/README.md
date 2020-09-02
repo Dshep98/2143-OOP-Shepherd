@@ -18,7 +18,7 @@ substitution of the frequency analysis given and the one from both of the cipher
 
 ### Instructions
 
-- This project was compiled using repl.it python compiler
+- This project was compiled using repl.it python compiler. I didb't run it anywhere else so im not entirely sure if it will work the same as with repl.it.
 
 ### Sources
 

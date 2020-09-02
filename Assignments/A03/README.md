@@ -12,7 +12,7 @@ substitution of the frequency analysis given and the one from both of the cipher
 |   1   | [main.py](./main.py)       | solution file.                                             |
 |   2   | [ciphertext1](./ciphertext1)| input file for first cipher |
 |   3   | [ciphertext2](./ciphertext2) | inputfile for second cipher|
-|   4   | [frequency.py](./frequency.py)| file to run frequency on. |
+
 
 
 

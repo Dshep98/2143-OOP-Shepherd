@@ -27,7 +27,7 @@ https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html#:
 - Book: 
   -Intro to Cryptography by Nigel Smart pages 41-43
 - Profesor Griffin: 
- - Sugesstion was to compare the top three frequencies of both charts and start substituting from there, to see what words would be formed.
+  Sugesstion was to compare the top three frequencies of both charts and start substituting from there, to see what words would be formed.
   I used the sources to help me understand what how to decipher both cipher text, and to actually comprehend how the material was supposed to work.
 
 ### Problems

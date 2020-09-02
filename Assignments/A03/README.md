@@ -26,9 +26,9 @@ substitution of the frequency analysis given and the one from both of the cipher
 https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html#:~:text=All%20simple%20substitution%20ciphers%20are%20susceptible%20to%20frequency,more%20common%20than%20others%20to%20break%20a%20code.
 - Book: 
   -Intro to Cryptography by Nigel Smart pages 41-43
--Profesor Griffin: 
+- Profesor Griffin: 
  - Sugesstion was to compare the top three frequencies of both charts and start substituting from there, to see what words would be formed.
-I used the sources to help me understand what how to decipher both cipher text, and to actually comprehend how the material was supposed to work.
+  I used the sources to help me understand what how to decipher both cipher text, and to actually comprehend how the material was supposed to work.
 
 ### Problems
 - Once i applied the methods some words were still not coming together so is used the book and start changing three/Two letter words to the most common words 

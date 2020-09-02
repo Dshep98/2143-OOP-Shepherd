@@ -11,9 +11,9 @@ substitution of the frequency analysis given and the one from both of the cipher
 | :---: | -------------------------- | ---------------------------------------------------------- |
 |   1   | [main.py](./main.py)       | solution file.                                             |
 |   2   | [ciphertext1](./ciphertext1)| input file for first cipher |
-|   3   | [ciphertext2](./ciphertext2) | inputfile for second cipher|
-
-
+|   3   | [ciphertext2](./ciphertext2) | input file for second cipher|
+|   4   | [decrypted_1.txt](./decrypted_1) | decipherd text file for first cipher|
+|   5   | [decrypted_2.txt](./decrypted_2) | deciphered text file for second cipher|
 
 
 ### Instructions

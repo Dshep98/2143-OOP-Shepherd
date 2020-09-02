@@ -9,7 +9,7 @@ substitution of the frequency analysis given and the one from both of the cipher
 
 |   #   | File                       | Description                                                |
 | :---: | -------------------------- | ---------------------------------------------------------- |
-|   1   | [main.py](./main.py)       | solution file.                                             |
+|   1   | [main.py](./main.py)       | solution file where the frequency analysis is ran                                     |
 |   2   | [ciphertext1](./ciphertext1)| input file for first cipher |
 |   3   | [ciphertext2](./ciphertext2) | input file for second cipher|
 |   4   | [decrypted_1.txt](./decrypted_1) | decipherd text file for first cipher|

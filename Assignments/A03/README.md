@@ -40,3 +40,10 @@ words in the english dictionary like and,the, or,to,etc.
 - After that i still had problems so i used the first few words i found initaly,and put them into google to get the actual message and kept changing letters around until 
  it formed the word i needed.( likely wasn't the best solution but it helped some.)
 
+### This is cipher #1 and Cipher #2 
+# I highlighted all two/and three letter words the chose the most occured and figured out what they could be.
+![Dominique](https://github.com/Dshep98/2143-OOP-Shepherd/blob/master/Assignments/A03/c1.PNG)
+
+## This is the comparison of frequencies wrote right along with the breaking down of how some of the first few words in the cipher came together.
+![Dominique](https://github.com/Dshep98/2143-OOP-Shepherd/blob/master/Assignments/A03/c2.PNG)
+

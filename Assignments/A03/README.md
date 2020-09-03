@@ -2,8 +2,9 @@
 ### Dominique Shepherd
 ### Description:
 
-In this assignment were given an intial frequency analysis chart of letters that occur most in thr english text. Then were given two text to decipher using 
-substitution of the frequency analysis given and the one from both of the cipher text provided. From there we were to compare the to and substite the letters with the repective frequencies.
+In this assignment were given an intial frequency analysis chart of letters that occur most in thr english text. Then were given two text to decipher using the 
+substitution method for the frequency analysis given and the one from both of the cipher text found once the program is ran. 
+From there we were to compare the two and substite the letters with the repective frequencies.
 
 ### Files
 

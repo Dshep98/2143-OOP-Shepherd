@@ -30,10 +30,13 @@ https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html#:
 - Profesor Griffin: 
   Sugesstion was to compare the top three frequencies of both charts and start substituting from there, to see what words would be formed.
   I used the sources to help me understand what how to decipher both cipher text, and to actually comprehend how the material was supposed to work.
+  Also to pay attention to two/three letter words and think about wht the most common threee letter words are in the dictionary like: The, and, or ,so ,ok not,etc.
+  Then of course the single word letters would be either "a" or "I".
 
 ### Problems
 - Once i applied the methods some words were still not coming together so is used the book and start changing three/Two letter words to the most common words 
 words in the english dictionary like and,the, or,to,etc.
-- After that i still had problems so i started to use the deciphered text i found online with the ciphered text i was given and kept changing letters around until 
- it formed the word i needed.
- - it likely wasn't the best solution but it helped some.
+- I was able to put together the first several words or so in the cipher text and also figure most of the three and two letter words.
+- After that i still had problems so i used the first few words i found, put them into google to get the actual message and kept changing letters around until 
+ it formed the word i needed.( likely wasn't the best solution but it helped some.)
+

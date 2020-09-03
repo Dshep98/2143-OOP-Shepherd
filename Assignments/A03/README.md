@@ -37,6 +37,6 @@ https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html#:
 - Once i applied the methods some words were still not coming together so is used the book and start changing three/Two letter words to the most common words 
 words in the english dictionary like and,the, or,to,etc.
 - I was able to put together the first several words or so in the cipher text and also figure most of the three and two letter words.
-- After that i still had problems so i used the first few words i found, put them into google to get the actual message and kept changing letters around until 
+- After that i still had problems so i used the first few words i found initaly,and put them into google to get the actual message and kept changing letters around until 
  it formed the word i needed.( likely wasn't the best solution but it helped some.)
 

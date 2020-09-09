@@ -1,4 +1,4 @@
-## Assignment 4: ADGGX Implementation
+## Assignment 4: ADFGX Implementation
 ### Dominique Shepherd
 ### Description:
 
@@ -15,7 +15,7 @@
 
 ### Instructions
 
-- This project was compiled using repl.t's python3
+- This project was compiled using repl.it's python3
 
 ### Sources
 

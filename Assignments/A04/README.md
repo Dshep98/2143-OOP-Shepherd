@@ -2,7 +2,7 @@
 ### Dominique Shepherd
 
 #### FORE WARNING: This program is incomplete nothing is actually connected, everything is pretty much in one file & slightly organized, and its not set up to run from the command line in repl.it using the skeleton assigned. On the other side it runs but some things are correct and some aren't. Some things are just coded indivisually brute force because its the only way i could figure it out.
-## I'd rather anyone not waste their time having go through all of it or if you want read through it at your own risk.
+## I'd rather anyone not waste their time having to go through all of it or if you want to read through it READ at your own risk.
 
 ### Description:
 - This program uses the ADFGX cipher to pass in two keywords. The first one is to buld the inital adfgx table the next then encrypt the table with a hidden message.

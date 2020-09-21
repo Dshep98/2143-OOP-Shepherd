@@ -5,7 +5,7 @@
 ## I'd rather anyone not waste their time having to go through all of it or if you want to read through it READ at your own risk.
 
 ### Description:
-- This program uses the ADFGX cipher to pass in two keywords. The first one is to buld the inital adfgx table the next then encrypt the table with a hidden message.
+- This program uses the ADFGX cipher to pass in two keywords. The first one is to build the inital adfgx table the next then encrypt the table with a hidden message.
  - Then it has to reprint out encrytion doubled in size from the lookup table. So for the decryption we have to do the steps in reverse 1.Read out the columns in the unsorted matrix which is where the columnar transposition comes in at 2. Now you have the encrypted text, based off of the keyword you have to figure out the number of long rows & short rows,length of cipher text, and short colums & small columns 3.  seperate the letters in the cipher text the based of the length of the length of the rows then read it back into the maxrix column wise. 4. After the matrix is formed use the look up table to decipher the text to reaad out the hidden message.
 
 ### Files

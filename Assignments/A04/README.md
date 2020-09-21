@@ -1,7 +1,7 @@
 ## Assignment 4: ADFGX Implementation
 ### Dominique Shepherd
 
-#### FORE WARNING: This program is incomplete nothing is actually connected, everything is pretty much in one file & slightly organized, and its not set up to run from the command line in repl.it using the skeleton assigned. On the other side it runs but some things are correct and some aren't.
+#### FORE WARNING: This program is incomplete nothing is actually connected, everything is pretty much in one file & slightly organized, and its not set up to run from the command line in repl.it using the skeleton assigned. On the other side it runs but some things are correct and some aren't. Some things are just coded indivisually brute force because its the only way i could figure it out.
 ## I'd rather anyone not waste their time having go through all of it or if you want read through it at your own risk.
 
 ### Description:

@@ -1,7 +1,7 @@
 ## Assignment 6: Prime Factor
 ### Dominique Shepherd
 
-#### FORE WARNING: Is complete the the reading of the prime has to be fixed
+#### FORE WARNING: program is complete but the the reading of the prime has to be fixed
 
 ### Description: This program reads in numbers from a file to determine if their prime or not. If a number is prime the program should print prime and if not print the factors of the number.
 
@@ -20,8 +20,13 @@
 - This project was compiled using repl.it's c++
 - I am not sure if its safe to be ran anywhere else.
 ### Sources
-- 
-
+- I used this video to touch up and logically understand what Prime and composit numbers are
+https://www.youtube.com/watch?v=FBbHzy7v2Kg
+https://www.youtube.com/watch?v=3h4UK62Qrbo
+ - this video helped to understand and clear up the code I was writing
+ https://www.youtube.com/watch?v=OLfVDBmZ3Xg
+ - When I had trouble figuring out how to print all the factors out I watched this video and figured out thats when I need to change "num" to "i".
+https://www.youtube.com/watch?v=rmD2VRwOgRs
 ### Problems
 - Figuring out the factors once the prime numbers were found was a problem, because I'd get it to print one of the factors
   initally but nothing else would print. So then I switched it to print just "i" instead of "num".

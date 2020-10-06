@@ -25,7 +25,7 @@ int main()
     for(i=2; i<= num/2; i++)
     {
       if(num % i==0)// if the remainder is 0 prime becomes false and it prints out all the factors of a number
-      {
+      {//Since a prime number is divisible by its self and 1.
         prime=false;
         outfile << " " <<i << ",";
       } 

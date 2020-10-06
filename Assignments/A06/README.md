@@ -27,11 +27,11 @@
   initally but nothing else would print. So then I switched it to print just "i" instead of "num".
   
  - Once I combined the code for primes and composites there was a problem with the primes. As shown below
-- Number 1: 2-Factors:  Prime
-  Number 2: 3-Factors:  Prime
-  Number 3: 4-Factors:  2,
-  Number 4: 5-Factors: 
-  Number 5: 6-Factors:  2, 3,
+- Number 1: 2-Factors:  Prime,,
+  Number 2: 3-Factors:  Prime,,
+  Number 3: 4-Factors:  2,   ,,
+  Number 4: 5-Factors:       ,,
+  Number 5: 6-Factors:  2, 3,,,
   Number 6: 7-Factors: 
 
-- Its printing the factors and the first two primes but not the rest for number 4 &6.
+- Its printing the factors of the numbers that are not prime and the first two primes but not the rest like for number 4 & 6.

@@ -1,0 +1,20 @@
+//This is the ouput for the num.txt file which holds th big numbers
+Name:Dominique Shepherd
+
+Number 1: 257267-Factors:  367, 701,
+Number 2: 389017-Factors:  73, 5329,
+Number 3: 982451653-Factors: 
+Number 4: 148661563-Factors:  167, 571, 1559, 95357, 260353, 890189,
+
+
+//This is the input.dat file that holds the smaller numbers
+Name:Dominique Shepherd
+
+Number 1: 2-Factors: 
+Prime
+Number 2: 3-Factors: 
+Prime
+Number 3: 4-Factors:  2,
+Number 4: 5-Factors: 
+Number 5: 6-Factors:  2, 3,
+Number 6: 7-Factors: 

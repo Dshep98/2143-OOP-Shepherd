@@ -1,8 +1,6 @@
 ## Assignment 6: Prime Factor
 ### Dominique Shepherd
 
-#### FORE WARNING: program is complete but the the reading of the prime has to be fixed
-
 ### Description: This program reads in numbers from a file to determine if their prime or not. If a number is prime the program should print prime and if not print the factors of the number.
 
 ### Files
@@ -27,6 +25,7 @@ https://www.youtube.com/watch?v=3h4UK62Qrbo
  https://www.youtube.com/watch?v=OLfVDBmZ3Xg
  - When I had trouble figuring out how to print all the factors out I watched this video and figured out thats when I need to change "num" to "i".
 https://www.youtube.com/watch?v=rmD2VRwOgRs
+- Dr.Griffin provided a sample input file and suggested I fix the prime problem by creating a seprate function that returns true or false to main.
 ### Problems
 - Figuring out the factors once the prime numbers were found was a problem, because I'd get it to print one of the factors
   initally but nothing else would print. So then I switched it to print just "i" instead of "num".

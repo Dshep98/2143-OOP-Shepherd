@@ -17,6 +17,7 @@
 
 - This project was compiled using repl.it's c++
 - I am not sure if its safe to be ran anywhere else.
+- the file I used for the program submitted was the [num.txt](./num.txt) which holds the big numbers. 
 ### Sources
 - I used this video to touch up and logically understand what Prime and composit numbers are
 https://www.youtube.com/watch?v=FBbHzy7v2Kg

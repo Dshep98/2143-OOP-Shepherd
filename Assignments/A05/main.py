@@ -1,27 +1,9 @@
 import sys
 import dict
-import frequency 
 import sys
 import os
 import pprint
-
-
-with open("dict","r") as f:
-  word=f.readlines()
-
-for i in range(len(word)):
-  word[i]=word[i].strip()
-
-if "cutthroat" in word:
-  print("exist")
-else:
-  print("nope")
-
-
-sys.exit
-
-####################################################################################################################################################################################
-#Run a frequency analysisfor cipher text
+import Frequency
 
 alphabet = [chr(x+97) for x in range(26)]
 typical_frequency = {
@@ -85,40 +67,77 @@ class Frequency():
 
       return None
 
-
-
+#opens up the text to be read then counts the frequency of each letter
 if __name__=='__main__':
-    opencipher=open("ciphertext", "r")
-    ciphertext1= opencipher.read()  
-    print("Calculating frequency...")
-    F = Frequency()
-    F.count(ciphertext1)
-    F.print()
+    opencipher=open("ciphertext2", "r")
+    ciphertext2 = opencipher.read()  
+    F=Frequency()
+    F.count(ciphertext2)
+  ###################################################################
+    # looks at every letter in the ciphertext and calculates the total IC and gives a score.
+    total = 0
+    for k,v in F.freq.items():
+        #print(f"{k} , {v}")
+        p = (v / len(ciphertext2)) # percentage of how often letter occurs in ciphertext
+        #print(p,end=" ")
+        sqdiff = ((typical_frequency[k]/100) - p)**2 # compare it to typical
+        # total += float(v)/len(ciphertext2)
+        #print(f"{k} , {sqdiff} , {p}, {v} ")
+        total += sqdiff
+    #print(f"Total: {total}") #Calculates the I.C of the ciphertext
+    #in the end this will be compared to the indivisual I.C. from the key length that occurs at the highest percentage
     
-    
+    print("\n")
+    ################################################################# 
+    #find the I.C. of ciphtext then compare it to each sequence in the length
+    ciphtxt = "tensw pez yqb xyimsg dmnv fhkz jbqn vgzb glmnmfwh"
+    ciphtxt= ciphtxt.replace(' ','')   # get rid of spaces
+    len_txt=len(ciphtxt)
+    #print("LENGTH OF CIPHTXT:", len(ciphtxt))
+    print("Calculating I.C....")
+    F=Frequency()
+    F.count(ciphtxt)
+    #F.print()
 
+    #p=percentage of how often letter occurs in text
+    #k= the letter being read from text
+    #v=how often the number appers
 
-###################################################################################################################################################################################
-##STARTING WITH I.C- To find Key length
+    total = 0 #keeps total of each indivisual frequency then adds them all together
+    for k,v in F.freq.items():
+      p = (v / len(ciphtxt)) # percentage of how often letter occurs in ciphertext
+      #print(f"{k} , {p}, {v} ")
+      sqdiff = ((typical_frequency[k]/100) - p)**2 # compare it to typical
+      total += float(v)/len(ciphtxt)
+      #print(f"{k} , {sqdiff} , {p}, {v} ")
+      total += sqdiff
+    print(f"Total or I.C.: {total}") #So the total is the original I.C. thats gonna get compared to the others
+print('\n')
+###################################################################
+  #loop 14 times from 2-15 and keep going on up until 16
+  #keep going unitl their is a posiblilty of their being two of a kind in terms of I.C that are the highest to evaluate with the original.
+#ciphtxt = "tensw pez yqb xyimsg dmnv fhkz jbqn vgzb glmnmfwh"
+#           2-2-2 -2- 2-2 -2-2-2 -2-2 -2-2 -2-2 -2-2 -2-2-2-2
 
-#First find the length of the text for 'N'
-message=open("plaintext","r")
-Text=message.read()
-Text= Text.replace(' ','')   # get rid of spaces
+for skip in range(2,5):
+  #code you have to implement
+  #I need to figure out how to cut the sequences into subsequences once it hits the end of the text for given length
+  #then repeat for the next subsequence in that key length
+  print('\n')
+  print("If key were of length ", skip )
+  print("\n")
+  seq=1
+  print("Sequence ",seq,": ")
+  seq=seq+1
+  # j = which letter to start on 
+  for j in range(skip):
+      # start at 0
+      # then skip
+      #2 at a time
+        
+      for i in range(j,len(ciphtxt),skip):
+          if ciphtxt[i] in alphabet: 
+              print(ciphtxt[i],end=" ")
+              
 
-N=len(Text) # length of text
-c=26 #For the number of letters in the alphabet im assuming
-# Second find the frequency of each letter for n_i
-n_i='' #frequency of each letter # unsure of how to apply frequencies here
-
-
-####Has to be fixed
-#print(typical_frequency[0])
-#used to find the I.c for the vigenere text
-for i in range(26):
-  result=(typical_frequency[i]-Frequency[i]**2)
-  print(result,end="")
-
-
-
-
+ 

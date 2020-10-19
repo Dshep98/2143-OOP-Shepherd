@@ -27,5 +27,16 @@
 - Tons of help from professor griffin.
 
 ### Problems
+- So after getting help with griffin for finding the incidence of coincendecne for the full text, I moved on to breaking the text down into subsequences based off of the key length from each time it ran. But the problem i've encountered is that I can get it to skip every other number its on with the key length but breaking it down into THe subsequence once its been ran is the problem. 
+- Say for instance my lenth=2 its gonna print as this, which skips from the beginning every second other letter until the end.
 
+# ciphtxt = "tensw pez yqb xyimsg dmnv fhkz jbqn vgzb glmnmfwh"
+#            2-2-2 -2- 2-2 -2-2-2 -2-2 -2-2 -2-2 -2-2 -2-2-2-2
 
+So once its run this is what I get:
+
+If key were of length  2---
+Sequence  1 :                             
+t n w e y b y m g m v h z b n g b l n f h e s p z q x i s d n f k j q v z g m m w 
+                                                      
+- As shown its printing the sequence of the entirty of the text, but im unsure of cut of the text once its finish reading every other number for it to then shift to the next sequence in the text printing the numbers that it missed. Its supposed to break off into the next sequence after h but thats where I get stuck.

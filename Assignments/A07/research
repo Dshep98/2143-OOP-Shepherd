@@ -1,0 +1,28 @@
+- Deterministic(2) 
+https://brilliant.org/wiki/median-finding-algorithm/
+
+So this source is deterministic ,because it's not randomized. It's not exactly explained in the since for primality testing and taking in one number and getting the same result. What it's doing is that it gets an initial list of numbers and breaks those numbers into sublists. Then the algorithm finds the median in each sublist then stores the median of each sublist in another list then finds the median from that list. From there that  median number used in the final list is used as a pivotal point and any number thats coming in after that is run against that number. If it's less than that number then it's to the left and if it's greater it's to the right of that number.
+
+https://cp-algorithms.com/algebra/primality_tests.html#toc-tgt-3
+
+The miller rabin algorithm is used to test for primality, but with this version the code is being executed in a deterministic sense. It's testing for all bases in a 32 bit integer but only to a certain lesser extent. It's also being tested in a 64 bit integer to check way more bases than the 32 bit integer.
+
+
+- Certificate(3)
+https://primes.utm.edu/glossary/page.php?sort=ECPP
+This source is the elliptic curve primality proving,what it does is it uses the calculations of the arc-length from the curves to keep shifting until factors can be found. It works with all sizes because it replaces the basics of just using (n-1)(n+1), so it can be used on larger numbers even in special cases.
+
+https://primes.utm.edu/glossary/page.php?sort=TrialDivision
+This source is pretty simple and straightforward with the bases of primality testing for small numbers. It simply uses trial division to divide some numbers by it's square to tell if it's prime or not but not print if it is with its factors.
+
+https://primes.utm.edu/glossary/page.php?sort=SieveOfEratosthenes
+I know this one is something we’ve already discussed in class with primality testing of small numbers, but is proven to be way more efficient when figuring out which numbers are prime and which aren’t. By striking out multiples of numbers as you go along.
+
+
+- Compositeness(2)
+https://faculty.lynchburg.edu/~nicely/misc/bpsw.html
+The Baillie PSW primality test is used directly for testing for compositeness with some relation to Fermat's Theorem and Miller-Rabin. What it does is test for N, which is likely already a composite number. With N, it's tested against the divisors of prime numbers less than like a 1000.
+
+https://crypto.stanford.edu/pbc/notes/numbertheory/millerrabin.html
+
+This just explains the test of composites with fermat's theorem and picking random numbers to see if it passes the theorem.

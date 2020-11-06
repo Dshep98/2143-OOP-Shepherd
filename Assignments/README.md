@@ -7,3 +7,4 @@
 | A05| https://github.com/Dshep98/2143-OOP-Shepherd/tree/master/Assignments/A05 | Viegenere Cipher
 | A06| https://github.com/Dshep98/2143-OOP-Shepherd/tree/master/Assignments/A06 | Prime Factors
 | A07| https://github.com/Dshep98/2143-OOP-Shepherd/tree/master/Assignments/A07 | Primality Research
+| A08| https://github.com/Dshep98/2143-OOP-Shepherd/tree/master/Assignments/A08 | Public Key Encryption

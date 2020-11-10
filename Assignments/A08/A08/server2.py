@@ -96,11 +96,9 @@ def frequency():
 def public_key(id):
     """ public_key
         Description: gets you the public key
-    """
-
+    """ 
     # os.path.join joins string segments to make a directory path
     key_path = os.path.join('keys',id+'.public.pem')
-
     # os.path.isfile returns true if file exists
     if os.path.isfile(key_path): 
         # open and read key
@@ -108,6 +106,7 @@ def public_key(id):
             key = f.read() 
         
         return handle_response({"public_key":key},{"id":id})
+    
     
 
 #   __  __ ___ ____   ____    _____ _   _ _   _  ____ _____ ___ ___  _   _ ____  

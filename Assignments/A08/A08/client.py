@@ -4,6 +4,7 @@ https://requests.readthedocs.io/en/master/user/quickstart/
 """
 import requests
 
-r = requests.get('http://localhost:8080/public_key/02')
+r = requests.post('http://localhost:8888/public_key/key.public.pem')
 
 print(r.text)
+

@@ -68,7 +68,7 @@ class Crypto:
 
     def encrypt(self,plaintext):
         # Encrypting With Public Key
-
+        
         # make sure the text is "bytes"
         # this is typically shown like this: b'message' (see the b before the quotes?)
         plaintext = str.encode(plaintext)
@@ -100,10 +100,18 @@ class Crypto:
 if __name__ == '__main__':
     C = Crypto()
     C.generate_keys()
-    #C.store_keys()   # write keys to file
-
-    encrypted = C.encrypt('This is my plaintext.')
+    C.store_keys()   # write keys to file
+    #C.load_keys()
+   
+    message= "I wondered if this works??? Hmmmmmm.....Does it?"
+    encrypted = C.encrypt(message)
 
     decrypted = C.decrypt(encrypted)
-
+    # print("MESSAGE IN PLAINTEXT:   ")
+    # print(message)
+    # print('/n')
+    # print("MESSAGE ENCRYPTED IN BYTES:   ")
+    print(encrypted)
+    # print('/n')
+    # print("MESSAGE AFTER DECRYPTION:   ")
     print(decrypted)

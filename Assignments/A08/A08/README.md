@@ -3,25 +3,7 @@
 
 ### Introduction
 
-This project will use an existing python library called [cryptography](https://cryptography.io/en/latest/index.html) (appropriately named) to use public key encryption to encrypt and decrypt messages sent between two entitiesr. Using a library called Flask, we can do that. A Flask server runs and "listens" or monitors a "port" on a computer. 
-
-
-There is a client/server on A and a client/server on B. Notice that the clients don't talk to their own servers! Why? They don't need to. Each process is local and can simply read or write from the local file system to communicate. However, each client does communicate with the server on the other machine. 
-
-<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/client_server_crypto_2020_2.png" width="500">
-
-Lets go through a scenario. No encryption, just sending a message:
-
-- Client A wants to send a message to B.
-- So Client A does a POST request sending a message to the server on B:
-  
-```python
-m = "Hey Bud. You see that PSA about syphilis? Crazy right?!?"
-p = requests.post('http://12.34.56.78:8080/message',json={"message":m})
-```
-- Server B receives the message and writes the message to a file in the file system. 
-- Client B is "watching" the file for changes, and when it does change, they read the file (message)
-
+This project will use an existing python library called cryptography (appropriately named) to use public key encryption to encrypt and decrypt messages sent between two entitiesr. Using a library called Flask, we can do that. A Flask server runs and "listens" or monitors a "port" on a computer. 
 
 
 

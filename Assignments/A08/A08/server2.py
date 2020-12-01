@@ -46,6 +46,16 @@ def getRoutes():
     return "<pre>"+response+"</pre>"
 
 
+@app.route("/test", methods=["POST","GET"])
+def testRoute():
+    print(request.method)
+    print(request.json)
+
+    # print(dir(request))
+
+    return handle_response({},request.args)
+
+
 @app.route('/hello/<string:name>/<string:adj>')
 def hello_name(name,adj):
     """ Route: hello
@@ -92,20 +102,49 @@ def frequency():
     return handle_response(result,request.args)
 
 
-@app.route('/public_key/<string:id>')
-def public_key(id):
+@app.route('/public_key', methods=["POST","GET"])
+def public_key():
     """ public_key
         Description: gets you the public key
+        http://localhost:8888/public_key?id=bob
     """ 
-    # os.path.join joins string segments to make a directory path
-    key_path = os.path.join('keys',id+'.public.pem')
-    # os.path.isfile returns true if file exists
-    if os.path.isfile(key_path): 
-        # open and read key
-        with open(os.path.join('keys',id+'.public.pem')) as f:
-            key = f.read() 
+
+    if request.method == "GET":
+        id = request.args.get('id',None)
+        # os.path.join joins string segments to make a directory path
+        key_path = os.path.join('keys',id+'.public.pem')
+        # os.path.isfile returns true if file exists
+        if os.path.isfile(key_path): 
+            # open and read key
+            with open(os.path.join('keys',id+'.public.pem')) as f:
+                key = f.read() 
+            
+            return handle_response({"public_key":key},{"id":id})
+    else:
+
+        print(request.json)
+
+        data = request.json
+
+        success = False
+
+        with open("./keys/"+'public.key.pem',"w") as f:
+            f.write(data['key'])
+
+        if os.path.isfile("./keys/"+'public.key.pem'):
+            success = True
+
+        return handle_response({"success":success})
+
+
+#  with open("./keys/"+data['id']+'public.key.pem',"w") as f:
+#             f.write(data['key'])
+
+#         if os.path.isfile("./keys/"+data['id']+'public.key.pem'):
+#             success = True
+
+#         return handle_response({"success":success}) 
         
-        return handle_response({"public_key":key},{"id":id})
     
     
 

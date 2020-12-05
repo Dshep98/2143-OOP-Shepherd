@@ -3,6 +3,7 @@
 
 ### Introduction
 
+<<<<<<< HEAD
 This project will use an existing python library called [cryptography](https://cryptography.io/en/latest/index.html) (appropriately named) to use public key encryption to encrypt and decrypt messages sent between two entitiesr. Using a library called Flask, we can do that. A Flask server runs and "listens" or monitors a "port" on a computer. 
 
 
@@ -23,6 +24,9 @@ p = requests.post('http://12.34.56.78:8080/message',json={"message":m})
 - Server B receives the message and writes the message to a file in the file system. 
 - Client B is "watching" the file for changes, and when it does change, they read the file (message)
 
+=======
+This project will use an existing python library called cryptography (appropriately named) to use public key encryption to encrypt and decrypt messages sent between two entitiesr. Using a library called Flask, we can do that. A Flask server runs and "listens" or monitors a "port" on a computer. 
+>>>>>>> 68997ff2c82bc6db49229e491a575e51edec2315
 
 
 >>>>>>> 8f0e1795d4e48e1ebb8368f7b8cd03dd90a73a8d

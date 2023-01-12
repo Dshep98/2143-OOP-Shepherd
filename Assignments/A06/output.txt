@@ -1,9 +1,0 @@
-Name:Dominique Shepherd
-
-Number 1: 257267-Factors:  367, 701,
-Number 2: 389017-Factors:  73, 5329,
-Number 3: prime
-Number 4: 148661563-Factors:  167, 571, 1559, 95357, 260353, 890189,
-
-
-

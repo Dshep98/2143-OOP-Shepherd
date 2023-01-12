@@ -207,7 +207,7 @@ pp.pprint(lookup)
 ############################################################
 ############################################################
 #FOR THIS PART I DIDNT BOTHER TO DO EVERYTHING LIKE i DID WITH KEYWORD 1
-IT JUST STOPS AFTER ITS ENCRPYTED FROM THE ADFGX TABLE
+#IT JUST STOPS AFTER ITS ENCRPYTED FROM THE ADFGX TABLE
 #######################################################################
 print('\n\n\n')
 ##Prints out matrix

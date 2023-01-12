@@ -54,7 +54,7 @@ class Frequency():
       #https://realpython.com/python-lambda/
       self.sort_freq = sorted(self.freq.items(), key=lambda x: x[1], reverse=True)
 
-  def print(self):
+  def print(self, f):
       if self.sort_freq:
           for f in self.sort_freq:
               print(f"{f[0]}:{f[1]}")
